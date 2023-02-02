@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "dev": "vitepress dev docs",
     "build": "vitepress build docs"
@@ -12,9 +13,10 @@
   "license": "ISC",
   "devDependencies": {
     "@vueuse/core": "^9.12.0",
-    "unocss": "^0.49.1",
-    "vitepress": "1.0.0-alpha.40",
-    "vue": "^3.2.45"
+    "@warp-ds/uno": "^0.0.5",
+    "unocss": "^0.49.2",
+    "vitepress": "1.0.0-alpha.45",
+    "vue": "^3.2.47"
   },
   "pnpm": {
     "peerDependencyRules": {

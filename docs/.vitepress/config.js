@@ -12,14 +12,14 @@ export default defineConfig({
           text: 'Basics',
           collabsible: true,
           items: [
-            { text: 'Spacing', link: '/index' }
+            { text: 'Spacing', link: '/spacing/' }
           ]
         },
         {
           text: 'Layout',
           collabsible: true,
           items: [
-            { text: 'Flex', link: '/flex' }
+            { text: 'Flex', link: '/flex/' }
           ]
         }
       ]
